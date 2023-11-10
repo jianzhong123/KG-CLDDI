@@ -33,8 +33,12 @@ In addition, for both multi-class and multi-label prediction, the knowledge grap
 * kg.rar: The knowledge graph dataset.
   
 ## Files:
-* main.py: 
-
+* GAT.py: The attention-based knowledge aggregation mechanism for the knowledge aggregation embeddings.
+* Procedure.py: Implementation of the contrastive learning moudule, model training and testing process.
+* dataloader.py: Knowledge graph, training and test data sets are loaded and parsed, and a drug-drug bipartite graph is constructed.
+* model.py: The implementation includes the lightGCN and task classifier.
+* register.py: The parameter settings of dataset and model loading.
+  
 ## Running the code
 
 You can run the following command to re-implement our work:
