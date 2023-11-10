@@ -15,8 +15,7 @@ We design a multi-stage feature extraction process that adeptly extracts drug-re
 * scikit-learn == 0.23.2
   
 ## Pretrain your data Preparation
-
-For multi-class DDI prediction, the input data is in the ./data/Drugbank folder. The details are as follows:
+For multi-class DDI prediction, the multi-class dataset is constructed by Chen et al. (Chen, Y., Ma, T., Yang, X., Wang, J., Song, B., and Zeng, X. (2021). Muffin: multiscale feature fusion for drug–drug interaction prediction. Bioinformatics, 37(17), 2651–2658), encompassing 1,569 drugs, 172,426 DDIs, and spanning 81 interaction types. the multi-class dataset is in the ./data/Drugbank folder. The details are as follows:
 * multi_ddi_sift.txt：The total multi-class dataset.
 * MUltiClass_TrainAll_S1.csv: The training dataset of the S1 partition Scheme.
 * MUltiClass_Test_S1.csv: The test set of the S1 partition Scheme.
