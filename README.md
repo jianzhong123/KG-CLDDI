@@ -24,5 +24,5 @@ For multi-label DDI prediction, in the ./multilabel folder; for multi-class DDI 
 
 > python main.py
 
-
-
+## Contact
+If you have any questions or suggestions with the code, please let us know. Contact Zhong Jian at jianzhong@csu.edu.cn
