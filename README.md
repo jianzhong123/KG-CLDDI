@@ -15,6 +15,7 @@ We design a multi-stage feature extraction process that adeptly extracts drug-re
 * scikit-learn == 0.23.2
   
 ## Pretrain your data Preparation
+
 For multi-class DDI prediction, the multi-class dataset is constructed by Chen et al. (Chen, Y., Ma, T., Yang, X., Wang, J., Song, B., and Zeng, X. (2021). Muffin: multi-scale feature fusion for drug–drug interaction prediction. Bioinformatics, 37(17), 2651–2658), encompassing 1,569 drugs, 172,426 DDIs, and spanning 81 interaction types. the multi-class dataset is in the ./data/Drugbank folder. The details are as follows:
 * multi_ddi_sift.txt：The total multi-class dataset.
 * MUltiClass_TrainAll_S1.csv: The training dataset of the S1 partition Scheme.
@@ -33,6 +34,7 @@ In addition, for both multi-class and multi-label prediction, the knowledge grap
 * kg.rar: The knowledge graph dataset.
   
 ## Files:
+
 For multi-label DDI prediction, the files are in the ./multilabel folder; for multi-class DDI prediction, the files are in the ./multiclass folder. The details are as follows:
 * GAT.py: The implementation of attention-based knowledge aggregation mechanism for generating the knowledge aggregation embeddings.
 * Procedure.py: The implementation of the contrastive learning moudule, model training and testing process.
@@ -45,11 +47,10 @@ For multi-label DDI prediction, the files are in the ./multilabel folder; for mu
   
 ## Running the code
 
-You can run the following command to re-implement our work:
-
-For multi-label DDI prediction, in the ./multilabel folder; for multi-class DDI prediction, in the ./multiclass folder:
+For multi-label DDI prediction, in the ./multilabel folder; for multi-class DDI prediction, in the ./multiclass folder. Parameters are already set in the code files. You can run the following command to re-implement our work:
 
 * > python main.py
 
 ## Contact
+
 If you have any questions or suggestions with the code, please let us know. Contact Zhong Jian at jianzhong@csu.edu.cn
