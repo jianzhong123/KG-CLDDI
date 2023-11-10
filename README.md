@@ -47,7 +47,7 @@ For multi-label DDI prediction, the files are in the ./multilabel folder; for mu
   
 ## Running the code
 
-For multi-label DDI prediction, in the ./multilabel folder; for multi-class DDI prediction, in the ./multiclass folder. Parameters are already set in the code files. You can run the following command to re-implement our work:
+For multi-label DDI prediction, you should go into the ./multilabel folder; for multi-class DDI prediction, you should go into the ./multiclass folder. The parameters are already set in the code files. You can run the following command to re-implement our work:
 
 * > python main.py
 
