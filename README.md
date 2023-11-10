@@ -33,7 +33,7 @@ In addition, for both multi-class and multi-label prediction, the knowledge grap
 * kg.rar: The knowledge graph dataset.
   
 ## Files:
-For multi-label DDI prediction, files in the ./multilabel folder; for multi-class DDI prediction, files in the ./multiclass folder:
+For multi-label DDI prediction, the files are in the ./multilabel folder; for multi-class DDI prediction, the files are in the ./multiclass folder. The details are as follows:
 * GAT.py: The attention-based knowledge aggregation mechanism for the knowledge aggregation embeddings.
 * Procedure.py: Implementation of the contrastive learning moudule, model training and testing process.
 * dataloader.py: Knowledge graph, training and test data sets are loaded and parsed, and a drug-drug bipartite graph is constructed.
