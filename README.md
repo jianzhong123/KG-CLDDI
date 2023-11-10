@@ -14,11 +14,11 @@ Note that the knowledge graph dataset and the initial embedding data generated b
 
 ## Requirements
 
-### Python == 3.7.3
-### Pytorch == 1.8.1
-### CUDA == 11.1
-### pandas == 1.3.0
-### scikit-learn == 0.23.2
+* Python == 3.7.3
+* Pytorch == 1.8.1
+* CUDA == 11.1
+* pandas == 1.3.0
+* scikit-learn == 0.23.2
 
 ## Running the code
 
