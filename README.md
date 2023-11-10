@@ -33,7 +33,7 @@ In addition, for both multi-class and multi-label prediction, the knowledge grap
 * kg.rar: The knowledge graph dataset.
   
 ## Files:
-
+* main.py: 
 
 ## Running the code
 
