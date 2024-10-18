@@ -51,6 +51,17 @@ For multi-label DDI prediction, you should go into the ./multilabel folder; for 
 
 * > python main.py
 
+## Citation
+### Please cite our paper if you find this work useful in your research.
+
+@article{zhong2024knowledge,
+  title={A knowledge graph-based method for drug-drug interaction prediction with contrastive learning},
+  author={Zhong, Jian and Zhao, Haochen and Zhao, Qichang and Wang, Jianxin},
+  journal={IEEE/ACM Transactions on Computational Biology and Bioinformatics},
+  year={2024},
+  publisher={IEEE}
+}
+
 ## Contact
 
 If you have any questions or suggestions with the code, please let us know. Contact Zhong Jian at jianzhong@csu.edu.cn
